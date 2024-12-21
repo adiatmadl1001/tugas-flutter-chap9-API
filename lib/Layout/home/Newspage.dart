@@ -11,9 +11,10 @@ class Newspage extends StatefulWidget {
   Newspage({Key? key}) : super(key: key);
   
   @override
-  State<Newspage> CreateState() => _NewspageState();
+  State<Newspage> createState() => _NewspageState();
   
   }
+
   class _NewspageState extends State<Newspage> {
   Future<List<Getnews>> fetchPosts() async {
     final response = 

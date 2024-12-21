@@ -1,5 +1,3 @@
-
-
 class Getnews {
   int id;
   String title;
